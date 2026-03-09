@@ -1,3 +1,4 @@
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -26,7 +27,7 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: bhargavi486/mongodb.v1
+        image: bhargavi486/mongodb:v1
 
 ---
 apiVersion: v1
