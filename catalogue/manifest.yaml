@@ -43,7 +43,7 @@ spec:
         image: bhargavi486/catalogue:v1
         envFrom:
         - configMapRef:
-          name: pod-config
+            name: mongodb-config
 
 ---
 apiVersion: v1
