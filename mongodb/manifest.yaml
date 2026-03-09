@@ -13,7 +13,7 @@ spec:
 # these are the labels replica set use to create pod replicas, this should match pod labels
   selector:
     matchLabels:
-      purpose: mongodb
+      component: mongodb
       project: roboshop
       tier: database
 # This is pod definition
