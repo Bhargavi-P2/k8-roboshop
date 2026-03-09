@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployement
 metadata:
   name: mongodb
+  Namespace: roboshop
 # replica set labels
   labels:
     component: mongodb
